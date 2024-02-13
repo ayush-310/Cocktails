@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+
+.aa{
+    margin: 1%;
+    font-size: x-large;
+    text-align: center;
+}
+.cocktails-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* gap: 100px; */
+    /* padding: 57px; */
+}
+
+
+.cocktail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 20px;
+    /* border: 2px solid black; */
+    border-radius: 21px;
+    width: 300px;
+    padding: 10px;
+    background-color: white;
+    /* height: 500px; */
+}
+
+.cocktail img {
+    width: 100%;
+    object-fit: cover;
+    /* Adjust the width as needed */
+    height: 100%;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    margin-bottom: 10px;
+    aspect-ratio: 2/3;
+}
+
+/* .cocktail p {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+}
+
+.cocktail p:first-child {
+    font-weight: bold;
+    color: #333;
+}
+
+.cocktail p:last-child {
+    color: #666;
+    font-style: italic;
+} */
+
+.ww {
+    height: 80%;
+    width: 100%;
+}
+
+.ss {
+    height: 20%;
+    width: 100%;
+    padding-left: 10px;
+    /* display: flex; */
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.ss h3 {
+    font-size: xx-large;
+}
+
+
+
+
+.tt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pp {
+    color: gray;
+    font-style: oblique;
+    margin-top: 2px;
+}
+
+/* CSS */
+.button-40 {
+    margin-right: 5px;
+    text-decoration: none;
+    background-color: #111827;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: .75rem 1.2rem;
+    text-align: center;
+    text-decoration: none #6B7280 solid;
+    text-decoration-thickness: auto;
+    transition-duration: .2s;
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+}
+
+.button-40 a{
+    text-decoration: none;
+    color: coral;
+}
+
+.button-40:hover {
+    background-color: rgb(212, 230, 165);
+}
+
+.button-40:focus {
+    box-shadow: none;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+    .button-40 {
+        padding: .75rem 1.5rem;
+    }
+}
